@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 내 정보 수정-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
             <div class="container">
                 <div class="content">
                     <div class="login_wrap">
@@ -19,17 +19,17 @@
                             </div>
                             <ul class="mypage_list">
                                 <li>
-                                    <a href="/views/mypage/mypage_notice_view.jsp">
+                                    <a href="/views/mypage/mypage_notice_view.html">
                                         <strong>공지 사항</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/views/mypage/kakao_talk.jsp">
+                                    <a href="/views/mypage/kakao_talk.html">
                                         <strong>단톡방 참여하기(준회원)</strong>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/views/mypage/mypage_intro.jsp">
+                                    <a href="/views/mypage/mypage_intro.html">
                                         <strong>코지(COXI) 소개</strong>
                                     </a>
                                 </li>

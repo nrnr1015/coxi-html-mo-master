@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 사진 자세히 보기-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
 
             <div class="container party_detail gallery_wrap">
                 <div class="host_info">
@@ -31,7 +31,7 @@
 
                     <div class="grounp">
                         <div class="comment line_is">
-                            <h5>댓글 <span class="count">1</span> <button type="button" class="go_comment" onclick="location.href='/views/party/party_reply.jsp'">댓글달기</button></h5>
+                            <h5>댓글 <span class="count">1</span> <button type="button" class="go_comment" onclick="location.href='/views/party/party_reply.html'">댓글달기</button></h5>
                             <div class="comment_area">
                                 <!-- .comment_li s-->
                                 <div class="comment_li">

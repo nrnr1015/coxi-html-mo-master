@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="container_main bottm_interval">
             <div class="content">
@@ -13,7 +13,7 @@
                                 <div class="title">
                                     <p>독서, 소셜, 문화가 함께하는 공간</p>
                                     <img class="logo" src="/img/ico/logo.png" alt="COZI">
-                                    <a href="/mypage/mypage_intro.jsp">자세히 알아보기 &gt;</a>
+                                    <a href="/mypage/mypage_intro.html">자세히 알아보기 &gt;</a>
                                 </div>
                             </div>
                             <div class="list_wrap">
@@ -124,7 +124,7 @@
                                         </li>
                                     </ul>
                                     <div class="btn_area">
-                                        <a href="/views/party/party_main.jsp" class="st_of border_100">모임 전체 보기</a>
+                                        <a href="/views/party/party_main.html" class="st_of border_100">모임 전체 보기</a>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
             </div>
         </div>
 
-        <%@include file="/include/bottom_nav.jsp"%>
+        <%@include file="/include/bottom_nav.html"%>
 
         <script>
             //스크롤 올릴때 서서히 투명도 주기

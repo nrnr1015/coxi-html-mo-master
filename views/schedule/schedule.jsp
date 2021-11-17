@@ -1,20 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <link rel="stylesheet" href="/css/monthly/monthly.css">
     <script type="text/javascript" src="/js/monthly/jquery.js"></script>
     <script type="text/javascript" src="/js/monthly/monthly.js"></script>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 스케줄-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
             <div class="container bottm_interval">
               <div class="content">
                   <div class="monthly" id="mycalendar"></div>
               </div>
             </div>
-            <%@include file="/include/bottom_nav.jsp"%>
+            <%@include file="/include/bottom_nav.html"%>
             <script type="text/javascript">
 
               var sampleEvents = {

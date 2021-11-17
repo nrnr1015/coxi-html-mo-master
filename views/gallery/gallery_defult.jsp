@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!-- 헤더이름 // 갤러리-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
             <div class="container">
                 <div class="content">
                     <button type="button" class="filebox add_photo">
@@ -15,7 +15,7 @@
                     <div class="gallery_wrap">
                         <ol class="after">
                             <li>
-                                <a href="gallery_view.jsp">
+                                <a href="gallery_view.html">
                                     <img src="http://img.enews24.cjenm.skcdn.com/News/Contents/20180726/82855199.jpg" alt="">
                                     <span class="abs_area">
                                         <span class="like"><em class="count">2</em></span>

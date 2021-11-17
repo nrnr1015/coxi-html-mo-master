@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 나의 page-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
            
             <div class="container color_bg">
                 <div class="content">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <%@include file="/include/bottom_nav.jsp"%>
+                    <%@include file="/include/bottom_nav.html"%>
                 </div>
             </div>
         </div>

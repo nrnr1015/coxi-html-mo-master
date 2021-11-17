@@ -2,11 +2,11 @@
 
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page auto_hei">
             <!--헤더이름 // 로그인-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
             <div class="container whole_hei">
                 <div class="content">
                     <div class="login_wrap">

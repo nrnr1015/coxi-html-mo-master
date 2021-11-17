@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 모임 정보-->
@@ -47,8 +47,8 @@
                     <div class="img_list">
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><a href="/views/gallery/gallery_view_close.jsp" class="click_img"><img src="https://modo-phinf.pstatic.net/20180918_164/1537237639714VqUGk_JPEG/mosaeGMnFx.jpeg?type=w1100" alt=""></a></div>
-                                <div class="swiper-slide"><a href="/views/gallery/gallery_view_close.jsp" class="click_img"><img src="/img/template/party_img.png" alt=""></a></div>
+                                <div class="swiper-slide"><a href="/views/gallery/gallery_view_close.html" class="click_img"><img src="https://modo-phinf.pstatic.net/20180918_164/1537237639714VqUGk_JPEG/mosaeGMnFx.jpeg?type=w1100" alt=""></a></div>
+                                <div class="swiper-slide"><a href="/views/gallery/gallery_view_close.html" class="click_img"><img src="/img/template/party_img.png" alt=""></a></div>
                             </div>
                             <!-- Add Pagination -->
                             <div class="swiper-pagination"></div>
@@ -57,7 +57,7 @@
                     <div class="host_info">
                         <div class="host_name line_is after">
                             <div class="name_box">
-                                <span class="profile_img"><a href="/views/gallery/gallery_view_close_one.jsp" rel="thumbnail" class="click_img"><img src="/img/template/profile_img.png" alt="호스트 이정원"></a></span>
+                                <span class="profile_img"><a href="/views/gallery/gallery_view_close_one.html" rel="thumbnail" class="click_img"><img src="/img/template/profile_img.png" alt="호스트 이정원"></a></span>
                                 <strong class="name"><span>호스트</span> 이정원</strong>
                             </div>
                             <span class="job">운영진</span>
@@ -76,14 +76,14 @@
                         <div class="take_party line_is">
                             <h5>참여 <span class="count">4</span></h5>
                             <ul>
-                                <li class="profile_img"><a href="/views/party/partylist_people.jsp" rel="thumbnail" class="click_img"><img src="/img/template/profile_img1.png" alt="장동건"></a></li>
-                                <li class="profile_img"><a href="/views/party/partylist_people.jsp" rel="thumbnail" class="click_img"><img src="/img/template/profile_img2.png" alt="이정재"></a></li>
-                                <li class="profile_img"><a href="/views/party/partylist_people.jsp" rel="thumbnail" class="click_img"><img src="/img/template/profile_img3.png" alt="원빈"></a href="#"></li>
-                                <li class="profile_img"><a href="/views/party/partylist_people.jsp" class="click_none"><img src="/img/template/profile_no.png" alt="프로필 사진이 없습니다."></a></li>
+                                <li class="profile_img"><a href="/views/party/partylist_people.html" rel="thumbnail" class="click_img"><img src="/img/template/profile_img1.png" alt="장동건"></a></li>
+                                <li class="profile_img"><a href="/views/party/partylist_people.html" rel="thumbnail" class="click_img"><img src="/img/template/profile_img2.png" alt="이정재"></a></li>
+                                <li class="profile_img"><a href="/views/party/partylist_people.html" rel="thumbnail" class="click_img"><img src="/img/template/profile_img3.png" alt="원빈"></a href="#"></li>
+                                <li class="profile_img"><a href="/views/party/partylist_people.html" class="click_none"><img src="/img/template/profile_no.png" alt="프로필 사진이 없습니다."></a></li>
                             </ul>
                         </div>
                         <div class="comment line_is">
-                            <h5>댓글 <span class="count">1</span> <button type="button" class="go_comment" onclick="location.href='/views/party/party_reply.jsp'">댓글달기</button></h5>
+                            <h5>댓글 <span class="count">1</span> <button type="button" class="go_comment" onclick="location.href='/views/party/party_reply.html'">댓글달기</button></h5>
                             <div class="comment_area">
                                 <!-- .comment_li s-->
                                 <div class="comment_li">

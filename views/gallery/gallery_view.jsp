@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <header id="header" class="after type2 opacity">
             <a href="#" class="back">뒤로가기</a>
@@ -27,7 +27,7 @@
                                             <em class="date">3/14(월) 오후 7:30</em>
                                         </div>
                                     </div>
-                                    <a href="gallery_detail.jsp" class="go_gallery_detail">자세히 보기</a>
+                                    <a href="gallery_detail.html" class="go_gallery_detail">자세히 보기</a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
@@ -42,7 +42,7 @@
                                             <em class="date">3/14(월) 오후 7:30</em>
                                         </div>
                                     </div>
-                                    <a href="gallery_detail.jsp" class="go_gallery_detail">자세히 보기</a>
+                                    <a href="gallery_detail.html" class="go_gallery_detail">자세히 보기</a>
                                 </div>
                             </div>
                         </div>

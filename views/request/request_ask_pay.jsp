@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html>
-    <%@include file="/include/head.jsp"%>
+    <%@include file="/include/head.html"%>
     <body>
         <div class="sub_page">
             <!--헤더이름 // 참여 신청하기-->
-            <%@include file="/include/header01.jsp"%>
+            <%@include file="/include/header01.html"%>
             
             <div class="container">
                 <div class="content">
