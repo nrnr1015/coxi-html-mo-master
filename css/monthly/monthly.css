@@ -16,8 +16,8 @@
 .monthly-prev:hover,
 .monthly-next:hover {opacity: 1;}
 
-.monthly-prev:after {left: 0; background: url(/img/ico/schedule_prev.png) left center no-repeat;}
-.monthly-next:after {right: 0; background: url(/img/ico/schedule_next.png) right center no-repeat;}
+.monthly-prev:after {left: 0; background: url(/coxi-html-mo-master/img/ico/schedule_prev.png) left center no-repeat;}
+.monthly-next:after {right: 0; background: url(/coxi-html-mo-master/img/ico/schedule_next.png) right center no-repeat;}
 .monthly-prev:after,
 .monthly-next:after {content: ''; position: absolute; top: 0; width: 30px; height: 30px; background-size: 6px 10px;}
 .monthly-prev:after{border-width: 0 0 0.2em 0.2em;}
@@ -50,7 +50,7 @@
 .monthly-list-item {position: relative; text-align: left; background:#fff; padding:63px 20px 0;}
 .monthly-event-list .monthly-today .monthly-event-list-date {color: #333;}
 .monthly-event-list-date {width:100%; background:#fafafa; position:absolute; left:0; top:0; padding:32px 20px 10px; font-size:16px; color:#333; font-weight:700;}
-.monthly-event-list .listed-event {display:block; background:#fff url(/img/ico/schedule_allow.png) right center no-repeat; background-size: 8px 14px; border-top:1px solid #f2f2f2; padding:15px 20px 15px 0; font-size:13px; color:#333;}
+.monthly-event-list .listed-event {display:block; background:#fff url(/coxi-html-mo-master/img/ico/schedule_allow.png) right center no-repeat; background-size: 8px 14px; border-top:1px solid #f2f2f2; padding:15px 20px 15px 0; font-size:13px; color:#333;}
 .monthly-list-time-start {font-size:11px; color:#9e9e9e; line-height:1; margin-top:10px;}
 .monthly-list-item a:link, 
 .monthly-list-item a:visited {text-decoration: none;}

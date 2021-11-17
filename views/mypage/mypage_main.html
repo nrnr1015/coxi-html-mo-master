@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" href="/coxi-html-mo-master/css/common/common.css">
+        <link rel="stylesheet" href="/coxi-html-mo-master/css/common/style.css">
+        <link rel="stylesheet" href="/coxi-html-mo-master/css/swiper/swiper.min.css">
+        <script type="text/javascript" src="/coxi-html-mo-master/js/jquery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/coxi-html-mo-master/js/jquery-ui/jquery-ui-1.12.1.min.js"></script>
+        <script type="text/javascript" src="/coxi-html-mo-master/js/swiper/swiper-4.5.0.min.js"></script>
+        <script type="text/javascript" src="/coxi-html-mo-master/js/bpopup/jquery.bpopup-0.11.0.min.js"></script>
+        <script type="text/javascript" src="/coxi-html-mo-master/js/common/common.js"></script>   
+    </head>
+    <body>
+        <div class="sub_page">
+            <!--헤더이름 // 내 정보-->
+            <header id="header" class="after">
+                <a href="#" class="back">뒤로가기</a>
+                <h2>타이틀</h2>
+            </header>
+            <div class="container color_bg">
+                <div class="content">
+                    <div class="info_wrap">
+                        <div class="my_info">
+                            <div class="my_psa after">
+                                <div class="profile_img"> 
+                                	<a href="javascript:void(0);">
+                                    	<img src="/coxi-html-mo-master/img/template/profile_img1.png" alt="장동건">
+                                	</a>
+                                </div>
+                                <div class="my_grade">
+                                    <!-- 준회원 .jun / 정회원 .jung-->
+                                    <strong class="name"><span class="pop_btn jun">준회원</span> 장동건</strong>
+                                    <p class="my_pages">300pages</p>
+                                </div>
+                            </div>
+                            <div class="myProgress">
+                                <div class="myBar" style="width: 30%;"><span>300</span></div>
+                            </div>
+                            <div class="grade_detail">
+                                <p>모임에 참여하는 활동이 쌓일 수록 페이지 수가 증가합니다. <a href="#">자세히 알아보기</a></p>
+                            </div>
+                        </div>
+                        <ul class="mypage_list">
+                            <li>
+                                <a href="#">
+                                    <strong>내 정보 수정</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong>모임 신청 목록</strong>
+                                </a>
+                            </li>
+                            <li> <!-- 만약 뉴뱃지가 있으면 .if_new 추가-->
+                                <a href="#">
+                                    <strong class="if_new">공지 사항</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong>단톡방 참여하기(준회원)</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong>카카오톡 문의하기</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <strong>코지(COXI) 소개</strong>
+                                </a>
+                            </li>
+                        </ul>   
+                    </div>
+                    <!--바텀네비 s-->
+                    <div class="bottom_nav">
+                        <ul class="after"> <!-- 활성 클래스는 on-->
+                            <li><a href="#" class="home on">홈</a></li>
+                            <li><a href="#" class="schedule">스케줄</a></li>
+                            <li><a href="#" class="meeting"><span>모임 <i class="num">1</i></spa></a></li>
+                            <li><a href="#" class="gallery">갤러리</a></li>
+                            <li><a href="#" class="my_info">내 정보</a></li>
+                        </ul>
+                    </div>
+                    <!--바텀네비 e-->
+                </div>
+            </div>
+        </div>
+
+        <div id="full_popup">
+            <header id="header" class="after full_head">
+                <h2>등급 확인하기</h2>
+                <a href="#" class="close">닫기</a>
+            </header>
+            <div class="container color_bg auto_hei">
+                <div class="content">
+                    <div class="grade_cofm">
+                        <div class="table">
+                            <div class="top_area">
+                                <div class="complete"> <!--정회원.jung / 준회원.jun-->
+                                    <strong class="title jun">현재 등급은 <span>준회원</span>입니다.</strong>
+                                </div>
+                                <div class="what_grade">
+                                    <dl>
+                                        <dt>준회원</dt>
+                                        <dd>최초 가입 시 부여</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>정회원</dt>
+                                        <dd>독서모임 포함 3회 이상 <br> 모임 참여 시 부여</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="bottom_noti">
+                                <p>· 등급에 따라 참여 가능 모임과 혜택이 달라질 수 있습니다 :)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            // 클릭하면 팝업
+            $("#full_popup").hide();
+            $('.pop_btn').click(function() {
+                $("#full_popup").show();
+                $("body").css({"overflow":"hidden"});
+            });
+            $('#full_popup .close').click(function() {
+                $("#full_popup").hide();
+                $("body").css({"overflow":"auto"});
+            });
+        </script>
+    </body>
+</html>

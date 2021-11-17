@@ -65,18 +65,18 @@ html.open {overflow: hidden;}
 /*1. 헤더*/
 #header {position: fixed; left: 0; top: 0; width: 100%; height: 48px; background: #fff; z-index: 999;}
 #header.type2.hd_fixed {background: #fff !important;}
-#header.type2.hd_fixed .back {background: url(/img/ico/icon_back.png) center no-repeat; background-size: 14px;}
+#header.type2.hd_fixed .back {background: url(/coxi-html-mo-master/img/ico/icon_back.png) center no-repeat; background-size: 14px;}
 #header.type2.hd_fixed h2 {color: #333;}
 #header > * {float: left;}
 #header a {text-indent: -9999px;}
 #header.type2 {background: transparent;}
-#header.type2 .back {background: url(/img/ico/icon_back_w.png) center no-repeat; background-size: 14px;}
+#header.type2 .back {background: url(/coxi-html-mo-master/img/ico/icon_back_w.png) center no-repeat; background-size: 14px;}
 #header.type2 h2 {color: #fff;}
-#header .back {width: 45px; height: 48px; background: url(/img/ico/icon_back.png) center no-repeat; background-size: 14px; text-indent: -9999px;}
+#header .back {width: 45px; height: 48px; background: url(/coxi-html-mo-master/img/ico/icon_back.png) center no-repeat; background-size: 14px; text-indent: -9999px;}
 #header h2 {font-size: 15px; color: #333; font-weight: 400; line-height: 48px;}
 #header h2 .header_count {display: inline-block; margin-left: 5px; font-weight: 700; font-size: 15px; color: #a90329;}
 #header.full_head h2 {width: 100%; padding: 0 48px; text-align: center;}
-#header.full_head .close {position:absolute; right: 0; top: 0; width: 48px; height: 48px; background: url(/img/ico/head_close.png) center no-repeat; background-size: 13px 14px;}
+#header.full_head .close {position:absolute; right: 0; top: 0; width: 48px; height: 48px; background: url(/coxi-html-mo-master/img/ico/head_close.png) center no-repeat; background-size: 13px 14px;}
 #header.opacity {background: rgba(0,0,0,0.6);}
 
 
@@ -85,21 +85,21 @@ html.open {overflow: hidden;}
 .bottom_nav {height: 50px;}
 .bottom_nav li {float: left; width: 20%;}
 .bottom_nav li a {display: block; font-size: 10px; color: #333; background-repeat:no-repeat; background-position: center 7px; background-size: 22px; padding-top: 32px; text-align: center;}
-.bottom_nav li a.home {background-image: url(/img/ico/home.png);}
-.bottom_nav li a.schedule {background-image: url(/img/ico/schedule.png);}
-.bottom_nav li a.meeting {background-image: url(/img/ico/meeting.png);}
-.bottom_nav li a.gallery {background-image: url(/img/ico/gallery.png);}
-.bottom_nav li a.my_info {background-image: url(/img/ico/my_info.png);}
+.bottom_nav li a.home {background-image: url(/coxi-html-mo-master/img/ico/home.png);}
+.bottom_nav li a.schedule {background-image: url(/coxi-html-mo-master/img/ico/schedule.png);}
+.bottom_nav li a.meeting {background-image: url(/coxi-html-mo-master/img/ico/meeting.png);}
+.bottom_nav li a.gallery {background-image: url(/coxi-html-mo-master/img/ico/gallery.png);}
+.bottom_nav li a.my_info {background-image: url(/coxi-html-mo-master/img/ico/my_info.png);}
 .bottom_nav li a.meeting span {display: inline-block; position: relative;}
 .bottom_nav li a.meeting .num {position: absolute; right: -12px; top: -31px; width: 14px; height: 14px; background: #ff4c4c; border-radius: 50%; font-style: normal; font-size: 10px; color: #fff; line-height: 14px; text-align: center;}
 
 /*3. 바텀네비 활성*/
 .bottom_nav li a.on {color: #a90329;}
-.bottom_nav li a.home.on {background-image: url(/img/ico/home_select.png);}
-.bottom_nav li a.schedule.on {background-image: url(/img/ico/schedule_select.png);}
-.bottom_nav li a.meeting.on {background-image: url(/img/ico/meeting_select.png);}
-.bottom_nav li a.gallery.on {background-image: url(/img/ico/gallery_select.png);}
-.bottom_nav li a.my_info.on {background-image: url(/img/ico/my_info_select.png);}
+.bottom_nav li a.home.on {background-image: url(/coxi-html-mo-master/img/ico/home_select.png);}
+.bottom_nav li a.schedule.on {background-image: url(/coxi-html-mo-master/img/ico/schedule_select.png);}
+.bottom_nav li a.meeting.on {background-image: url(/coxi-html-mo-master/img/ico/meeting_select.png);}
+.bottom_nav li a.gallery.on {background-image: url(/coxi-html-mo-master/img/ico/gallery_select.png);}
+.bottom_nav li a.my_info.on {background-image: url(/coxi-html-mo-master/img/ico/my_info_select.png);}
 
 /*4. tab 탭*/
 .tab_menu {background: #fff; margin-left: -1px;}
@@ -134,8 +134,8 @@ html.open {overflow: hidden;}
 .footer_info .info_area {border-bottom:1px solid #f2f2f2; padding-bottom: 10px;}
 .footer_info .info_area h3 {float: left;}
 .footer_info .info_area h3 > img {width: 43px;}
-.footer_info .info_area .biss_info:after {content:""; padding-left: 13px; width: 7px; height: 7px; display: inline-block; background: url(/img/ico/footer_off.png) center no-repeat; background-size: 7px 4px;}
-.footer_info .info_area .biss_info.on:after {background: url(/img/ico/footer_on.png) center no-repeat; background-size: 7px 4px;}
+.footer_info .info_area .biss_info:after {content:""; padding-left: 13px; width: 7px; height: 7px; display: inline-block; background: url(/coxi-html-mo-master/img/ico/footer_off.png) center no-repeat; background-size: 7px 4px;}
+.footer_info .info_area .biss_info.on:after {background: url(/coxi-html-mo-master/img/ico/footer_on.png) center no-repeat; background-size: 7px 4px;}
 .footer_info .info_area .biss_info {float: right; font-size: 10px; color: #9e9e9e;}
 .footer_info p ,
 .footer_info a {font-size: 10px; color: #9e9e9e; line-height: 1.7;}
@@ -144,8 +144,8 @@ html.open {overflow: hidden;}
 .footer_info .footer_layer.open {display: block;}
 .footer_info .bottom_area {padding: 12px 0 0;}
 /*체크박스*/
-.chk_box label.checked {background-image: url(/img/ico/checkbox_on.png); color: #097b92; font-weight: 700;}
-.chk_box label {display: block; padding-left: 20px; position: relative; background-image: url(/img/ico/checkbox_off.png); background-position: left center; background-repeat: no-repeat; background-size: 12px; cursor: pointer;}
+.chk_box label.checked {background-image: url(/coxi-html-mo-master/img/ico/checkbox_on.png); color: #097b92; font-weight: 700;}
+.chk_box label {display: block; padding-left: 20px; position: relative; background-image: url(/coxi-html-mo-master/img/ico/checkbox_off.png); background-position: left center; background-repeat: no-repeat; background-size: 12px; cursor: pointer;}
 .chk_box label input ,
 .button_radio label input {margin: 0;padding: 0;width: 0;height: 0;overflow: hidden;font-size: 0;line-height: 0; position: absolute; top: 0; left: 0; z-index: -1; }
 
@@ -191,7 +191,7 @@ h5 {font-size: 16px; color: #333; font-weight: 700;}
 
 /*완료페이지*/
 .complete {background: #fff; padding: 0 20px;}
-.complete .title {display: inline-block; margin-top: 42px; background: url(/img/ico/complete_ico.png) left 5px no-repeat; background-size: 20px; font-size: 18px; color: #333; font-weight: 700; padding-left: 28px;}
+.complete .title {display: inline-block; margin-top: 42px; background: url(/coxi-html-mo-master/img/ico/complete_ico.png) left 5px no-repeat; background-size: 20px; font-size: 18px; color: #333; font-weight: 700; padding-left: 28px;}
 .complete p {border-top:1px solid #f2f2f2; margin-top: 50px; padding-top: 30px; line-height: 1.6;}
 .complete p span {display: block; margin-top: 19px; font-size: 13px; color: #333;}
 .complete .out_msg {color: #9e9e9e;}
@@ -201,7 +201,7 @@ h5 {font-size: 16px; color: #333; font-weight: 700;}
 .myProgress::after {content:"1,000"; position: absolute; right: 0; bottom: -22px; font-size: 10px; color: #9e9e9e;}
 .myProgress {position: relative; width: 100%; height: 12px; border-radius: 10px; background: #e0e0e0; border-radius: 10px;}
 .myBar {position: absolute; left: 0; top: 0;   height: 12px; background: #a90329; border-radius: 10px;color: #a90329;}
-.myBar:after {content:""; width: 18px; height: 16px; position: absolute; right: 0; top: 0; background: url(/img/ico/progress_bg.png) center no-repeat; background-size: contain;}
+.myBar:after {content:""; width: 18px; height: 16px; position: absolute; right: 0; top: 0; background: url(/coxi-html-mo-master/img/ico/progress_bg.png) center no-repeat; background-size: contain;}
 .myBar > span {position: absolute; right: 0; top: -20px; color: #a90329;}
 
 /*뉴뱃지*/
@@ -212,7 +212,7 @@ h5 {font-size: 16px; color: #333; font-weight: 700;}
 .pop_style {display: none; width: 90%; background: #fff; border-radius: 10px; padding: 60px 30px 30px;} 
 
 /*팝업등급관련*/
-.pop_style .grade_up {padding-top: 75px; background: url(/img/ico/jung_title.png) center top no-repeat}
+.pop_style .grade_up {padding-top: 75px; background: url(/coxi-html-mo-master/img/ico/jung_title.png) center top no-repeat}
 .pop_style .grade_up p strong {display: inline-block;}
 
 /*팝업 텍스트*/
@@ -239,7 +239,7 @@ h5 {font-size: 16px; color: #333; font-weight: 700;}
 #full_popup {position: fixed; left: 0; top: 0; z-index: 10000; width: 100%; height: 100%;}
 
 /*상단고정*/
-.top_fx:after {content:""; position: absolute; left: 10px; top: 10px; background: url(/img/ico/top_fixed.png) center left no-repeat; width: 24px; height: 24px; background-size: 24px;}
+.top_fx:after {content:""; position: absolute; left: 10px; top: 10px; background: url(/coxi-html-mo-master/img/ico/top_fixed.png) center left no-repeat; width: 24px; height: 24px; background-size: 24px;}
 
 
 .gallery_edit { right:8px; }
