@@ -1,0 +1,127 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+
+<html>
+    <%@include file="/include/head.jsp"%>
+    <div>
+        <button type="button" class="btn_pop01">팝업1번 click</button>
+        <button type="button" class="btn_pop02">팝업2번 click</button>
+        <button type="button" class="btn_pop03">팝업3번 click</button>
+        <button type="button" class="btn_pop04">팝업4번 click</button>
+        
+        <div style="margin-top: 40px">
+            <button type="button" class="toast">토스트팝업 click</button>
+        </div>
+
+        <div style="margin-top: 40px">
+            <button type="button" class="system">시스템팝업 click</button>
+        </div>
+        
+
+        <div class="popup_clear toast_click">
+            <div class="content_pop">
+                <div class="toast_box">
+                    <p>저장이 완료되었습니다.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup_clear system_click">
+            <div class="content_pop">
+                <div class="system_box">
+                    <div class="btn_area">
+                        <button type="button" class="st_of radius_100">수정</button>
+                        <button type="button" class="st_of border_100 close">삭제</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pop_style popup01">
+            <div class="pop_content">
+                <!--내용 s-->
+                <div class="popup_box">
+                    <div class="comm_txt grade_up">
+                        <p>정경진님 등업을 축하드립니다 :) <br> <strong class="cozi_color">정회원</strong>이 되셨습니다.</p>
+                        <em>· 독서 모임 포함 3회 이상 참여 시 등업</em>
+                    </div>
+                    <div class="btn_area mt40">
+                        <button type="button" class="st_small bg_color b-close">확인</button>
+                    </div>
+                </div>
+                <!--내용 e-->
+            </div>
+        </div>
+        <div class="pop_style popup02">
+            <div class="pop_content">
+                <!--내용 s-->
+                <div class="popup_box">
+                    <div class="comm_txt">
+                        <p>제목이 있다면 이렇게 나오겠죠</p>
+                        <em>한 줄이면 가운데 정렬이겠죠.</em>
+                    </div>
+                    <div class="btn_area mt48">
+                        <button type="button" class="st_small bg_color b-close">확인</button>
+                        <button type="button" class="st_small bg_none b-close">취소</button>
+                    </div>
+                </div>
+                <!--내용 e-->
+            </div>
+        </div>
+        <div class="pop_style popup03">
+            <div class="pop_content">
+                <!--내용 s-->
+                <div class="popup_box">
+                    <div class="comm_txt">
+                        <p>제목이 있다면 이렇게 나오겠죠</p>
+                        <em>한 줄이면 가운데 정렬이겠죠.</em>
+                    </div>
+                    <div class="btn_area mt48">
+                        <button type="button" class="st_small bg_color b-close">확인</button>                    
+                    </div>
+                </div>
+                <!--내용 e-->
+            </div>
+        </div>
+        <div class="pop_style popup04">
+            <div class="pop_content">
+                <!--내용 s-->
+                <div class="popup_box">
+                    <div class="comm_txt">
+                        <p>제목이 있다면 이렇게 나오겠죠</p>
+                        <em>사실 두 줄이어도 가운데 정렬로 해야합니다.서너 줄 이상은 되야 좌정렬이 높은 가독성.</em>
+                    </div>
+                    <div class="btn_area mt48">
+                        <button type="button" class="st_small bg_color b-close">확인</button>                    
+                        <button type="button" class="st_small bg_none b-close">취소</button>
+                    </div>
+                </div>
+                <!--내용 e-->
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.toast').click(function() {
+            $('.toast_click').fadeIn(600).delay(1000).fadeOut(800);
+        });
+        $('.system').click(function() {
+            $('.system_click').show();
+        });
+        $('.close').click(function() {
+            $('.system_click').hide();
+        });
+
+        $('.btn_pop01').click(function() {
+            $('.popup01').bPopup();
+        });
+        $('.btn_pop02').click(function() {
+            $('.popup02').bPopup();
+        });
+        $('.btn_pop03').click(function() {
+            $('.popup03').bPopup();
+        });
+        $('.btn_pop04').click(function() {
+            $('.popup04').bPopup();
+        });
+    </script>
+</html>

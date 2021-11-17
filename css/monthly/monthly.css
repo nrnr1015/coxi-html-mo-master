@@ -1,0 +1,72 @@
+* {box-sizing:border-box;}
+.monthly {color: #545454; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; position: relative;}
+.monthly-header {position: relative; text-align: center; background: #fff; box-sizing: border-box; width: 150px; margin: auto; padding-bottom: 25px;}
+.monthly-header-title {text-transform: uppercase;}
+.monthly-header-title a {display:block; text-decoration:none; font-size:18px; color:#a90329; font-weight:700; line-height: 30px;}
+.monthly-header-title-date,
+.monthly-header-title-date:hover {cursor: default;}
+.monthly-reset {border-left: 0!important;}
+.monthly-reset::before {content: '\21BB';margin-right: 0.25em;}
+.monthly-cal {border-right: 0!important;}
+.monthly-cal::before {content: '\2637'; margin-right: 0.25em;}
+.monthly-prev,
+.monthly-next {position: absolute; top: 0; width: 30px; height: 30px;}
+.monthly-prev {left: 0;}
+.monthly-next {right: 0;}
+.monthly-prev:hover,
+.monthly-next:hover {opacity: 1;}
+
+.monthly-prev:after {left: 0; background: url(/img/ico/schedule_prev.png) left center no-repeat;}
+.monthly-next:after {right: 0; background: url(/img/ico/schedule_next.png) right center no-repeat;}
+.monthly-prev:after,
+.monthly-next:after {content: ''; position: absolute; top: 0; width: 30px; height: 30px; background-size: 6px 10px;}
+.monthly-prev:after{border-width: 0 0 0.2em 0.2em;}
+.monthly-next:after {border-width: 0.2em 0.2em 0 0;}
+.monthly-day-title-wrap {display: table; table-layout: fixed; width: 100%; background: #fff; font-size:10px; color:#333; padding:6px 0 10px;}
+.monthly-day-title-wrap div {width: 14.28% !important; display: table-cell; box-sizing: border-box; position: relative; text-align: center; text-transform: uppercase;}
+.monthly-day-wrap {display: table; table-layout: fixed; width: 100%; overflow: hidden; border-bottom:1px solid #f2f2f2; }
+.monthly-week {display: table-row; width: 100%;}
+.monthly-day, 
+.monthly-day-blank {width: 14.28% !important; display: table-cell; vertical-align: top; box-sizing: border-box; position: relative; color: inherit; background: #fff; -webkit-transition: .25s; transition: .25s; padding: 0; text-decoration: none; text-align: center; border-top:1px solid #f2f2f2}
+.monthly-indicator-wrap {position:relative; max-height: 56px; margin-bottom:7px; overflow: hidden;}
+.monthly-reset {display:none !important;}
+.monthly-day-wrap > a:hover {background: #A1C2E3;}
+.monthly-day-event > .monthly-day-number {font-size:10px; display:inline-block; color:#333; text-align:center; border-radius: 15px; padding: 0px 6px 1px; line-height:1.3; margin:8px 0 3px;}
+.monthly-day-pick > .monthly-indicator-wrap {margin: 0;}
+.monthly-day-pick > .monthly-day-number:before,
+.monthly-day-pick > .monthly-day-number:after {content: ''; display: block; padding-top: calc(50% - 0.8em); width: 0; height: 0;}
+.monthly-past-day:after{content: ''; width: 150%; height: 2px; -webkit-transform-origin: left top; -ms-transform-origin: left top; transform-origin: left top; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); background: rgba(0, 0, 0, 0.1); position: absolute; left: 0; top: 0;}
+.monthly-past-day:hover {background: #fff!important;}
+.monthly-day.clicked .monthly-day-number {border:1px solid #a90329; color:#a90329;}
+.monthly-today .monthly-day-number {border:0 !important; background:#a90329; color:#fff !important;}
+.monthly-day-pick.monthly-today .monthly-day-number {padding: 0.15em; margin: calc(50% - 0.7em) auto auto auto; font-size: 1em;}
+.monthly-day {height:60px;}
+.monthly-indicator-wrap.on {position:relative;}
+.monthly-indicator-wrap.on:after {content:"+2"; width:100%; background:#fff; position:absolute; left:0; bottom:0; font-size:10px; color:red;}
+.monthly-day .monthly-event-indicator {display: block; background: transparent !important; line-height:1.4;}
+.monthly-day .monthly-event-indicator span {color: #333; font-size: 10px; display:block;}
+.monthly-day .monthly-event-indicator:hover {cursor: pointer;}
+.monthly-event-list {background: #fff; overflow: auto; width: 100%;}
+.monthly-list-item {position: relative; text-align: left; background:#fff; padding:63px 20px 0;}
+.monthly-event-list .monthly-today .monthly-event-list-date {color: #333;}
+.monthly-event-list-date {width:100%; background:#fafafa; position:absolute; left:0; top:0; padding:32px 20px 10px; font-size:16px; color:#333; font-weight:700;}
+.monthly-event-list .listed-event {display:block; background:#fff url(/img/ico/schedule_allow.png) right center no-repeat; background-size: 8px 14px; border-top:1px solid #f2f2f2; padding:15px 20px 15px 0; font-size:13px; color:#333;}
+.monthly-list-time-start {font-size:11px; color:#9e9e9e; line-height:1; margin-top:10px;}
+.monthly-list-item a:link, 
+.monthly-list-item a:visited {text-decoration: none;}
+.item-has-event {display: block;}
+.item-has-event:after{display: none!important;}
+.monthly-list-time-start,
+.monthly-list-time-end {font-size: .8em; display: inline-block;}
+.monthly-list-time-end:not(:empty):before {content: '\2013'; padding: 0 2px;}
+.monthly-event-list::-webkit-scrollbar {width: 0.75em;}
+.monthly-event-list::-webkit-scrollbar-track {background: none;}
+.monthly-event-list::-webkit-scrollbar-thumb {background: #ccc; border: 1px solid #E9EBEC; border-radius: 0.5em;}
+.monthly-event-list::-webkit-scrollbar-thumb:hover {background: #555;}
+.monthly-reset:after { content: 'Today'; }
+.monthly-cal:after { content: 'Month'; }
+.monthly-cal {display: none !important;}
+.monthly-list-item:after { content: '예정된 모임이 없습니다.'; display:block; padding:25px 0 22px; font-size:13px; color:#333;}
+.monthly-locale-fr .monthly-reset:after { content: "aujourd'hui"; }
+.monthly-locale-fr .monthly-cal:after { content: "mois"; }
+.monthly-locale-fr .monthly-list-item:after	{ content: 'aucun événement';}
